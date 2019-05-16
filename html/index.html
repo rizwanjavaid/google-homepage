@@ -10,39 +10,41 @@
     <title>Google</title>
 </head>
 <body class="w-100">
-    <div class="bg-blue flex justify-between pa3">
-        <div>
-            <a href="#" class="no-underline black">About</a>
-            <a href="#" class="no-underline black">Store</a>
-        </div>
-        <div class="">
-                <a href="#" class="no-underline black">Gmail</a>
-                <a href="#" class="no-underline black">Images</a>
-                <a href="#" class="no-underline black">Hold for Icon</a>
-                <a href="#" class="no-underline black">Hold for Button</a>
-            </ul>
-        </div>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+<div class="container">
+  <header class="header">
+    <div class="headerNav-left">
+      <a href="#">About</a>
+      <a href="#">Store</a>
     </div>
-    <div class="center bg-yellow pa5 tc vh-75 flex-column">
-        <div class="ma3"><img src="../html/images/Google_2015_logo.svg"></div>
-        <input type="text" name="search" id="" class="ma2 h2">
-        <div class="ma3">
-            <button aria-label="Google Search" class="ma2">Google Search</button>
-            <button aria-label="Google Search" class="ma2">I'm Feeling Lucky</button>
-        </div>
+    <div class="headerNav-right">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <a href="#">Menu</a>
+      <a href="#">Profile</a>
     </div>
-    <footer class="bg-red flex justify-between pa3">
-        <div>
-            
-                <a>Advertising</a>
-                <la>Business</la>
-    
-        </div>
-        <div>
-                <a>Privacy</a>
-                <a>Terms</a>
-                <a>Settings</a>
-        </div>
-    </footer>
+  </header>
+  <div class="content">
+    <div class="logo"><img src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif"></div>
+    <div class="searchbox"><input type="text" id="search" name="name" size="10"></div>
+    <div class="searchbuttons">
+      <button type="button">Search Results</button>
+      <button type="button">I'm Feeling Lucky</button>
+    </div>
+    <div class="message">Learn about our <a href="#">latest digital wellbeing tips and tools</a></div>
+  </div>
+  <footer class="footer">
+  <div class="footerNav-left">
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+    </div>
+    <div class="footerNav-right">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
