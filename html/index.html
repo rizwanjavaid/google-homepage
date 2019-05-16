@@ -9,25 +9,29 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <title>Google</title>
 </head>
-<body class="w-100 sans-serif">
-    <div class="header flex h-25% pa3 justify-between min-h-100">
-        <div class="">
-            <a href="#">About</a>
-            <a href="#">Store</a>
+<body class="w-100">
+    <div class="bg-blue flex justify-between pa3">
+        <div>
+            <a href="#" class="no-underline black">About</a>
+            <a href="#" class="no-underline black">Store</a>
         </div>
-        <div class="rightnav">
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <a href="#">Hold for Icon</a>
-                <a href="#">Hold for Button</a>
+        <div class="">
+                <a href="#" class="no-underline black">Gmail</a>
+                <a href="#" class="no-underline black">Images</a>
+                <a href="#" class="no-underline black">Hold for Icon</a>
+                <a href="#" class="no-underline black">Hold for Button</a>
             </ul>
         </div>
     </div>
-    <div>
-        <img src="../html/images/Google_2015_logo.svg">
-        <input type="text" name="search" id="">
+    <div class="center bg-yellow pa5 tc vh-75 flex-column">
+        <div class="ma3"><img src="../html/images/Google_2015_logo.svg"></div>
+        <input type="text" name="search" id="" class="ma2 h2">
+        <div class="ma3">
+            <button aria-label="Google Search" class="ma2">Google Search</button>
+            <button aria-label="Google Search" class="ma2">I'm Feeling Lucky</button>
+        </div>
     </div>
-    <footer class="flex justify-between pa3">
+    <footer class="bg-red flex justify-between pa3">
         <div>
             
                 <a>Advertising</a>
